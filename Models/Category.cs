@@ -6,6 +6,6 @@
         public string Name { get; set; }
         public string? Description { get; set; }
         // Propiedad de navegación para la relación con Product
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product>? Product { get; set; } //Propiedad de navegacion
     }
 }
